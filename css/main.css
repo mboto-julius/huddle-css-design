@@ -1,5 +1,61 @@
+/* ------- General css ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --pink-color: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue:hsl(208, 11%, 55%);
+    --white-color: #ffffff;
+    --font-size:18px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* ------- hero section ------ */
+.hero-section{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url('/image/bg-hero-desktop.svg');
+    height: 80vh;
+    width: 100%;
+    background-color: var(--very-pale-cyan);
+}
+
+.hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+}
+
+.hero-logo img{
+    width: 80%;
+    height: 80%;
+}
+
+.hero-button a{
+  color: var(--very-dark-cyan);
+  font-weight: bold;
+  padding: 14px 60px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: var(--white-color);
+}
+
