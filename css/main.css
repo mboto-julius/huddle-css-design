@@ -33,16 +33,16 @@ a{
     background-repeat: no-repeat;
     background-size: auto;
     background-image: url('/image/bg-hero-desktop.svg');
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--very-pale-cyan);
+    padding: 2% 8%;
 }
 
-.hero-header{
+.hero-header, .hero-body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 8%;
 }
 
 .hero-logo img{
@@ -59,3 +59,68 @@ a{
   background-color: var(--white-color);
 }
 
+.hero-body{
+    padding-top: 5%;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+
+.content{
+    font-size: 20px;
+    color: var(--very-dark-cyan);
+}
+
+.hero-image img{
+  width: 800px;
+}
+
+.btn{
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+
+/* ------ main content ------ */
+.main-section{
+    padding: 6% 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px 0;
+}
+
+.main-content{
+    display: flex;
+    gap: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.2);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.main-description h4{
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-description p{
+    font-size: 18px;
+    color: var(--very-dark-cyan);
+}
+
+.main-img img{
+    width: 60%;
+}
