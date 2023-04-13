@@ -1,126 +1,141 @@
 /* ------- General css ------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --pink-color: hsl(322, 100%, 66%);
-    --very-pale-cyan: hsl(193, 100%, 96%);
-    --very-dark-cyan: hsl(192, 100%, 9%);
-    --grayish-blue:hsl(208, 11%, 55%);
-    --white-color: #ffffff;
-    --font-size:18px;
+:root {
+  --pink-color: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --white-color: #ffffff;
+  --font-size: 18px;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /* font-family: 'Poppins', sans-serif; */
 
 /* ------- hero section ------ */
-.hero-section{
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-image: url('/image/bg-hero-desktop.svg');
-    height: 90vh;
-    width: 100%;
-    background-color: var(--very-pale-cyan);
-    padding: 2% 8%;
+.hero-section {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("/image/bg-hero-desktop.svg");
+  height: 90vh;
+  width: 100%;
+  background-color: var(--very-pale-cyan);
+  padding: 2% 8%;
 }
 
-.hero-header, .hero-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.hero-header,
+.hero-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero-logo img{
-    width: 80%;
-    height: 80%;
+.hero-logo img {
+  width: 80%;
+  height: 80%;
 }
 
-.hero-button a{
+.hero-button a {
   color: var(--very-dark-cyan);
   font-weight: bold;
   padding: 14px 60px;
   border-radius: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: var(--white-color);
 }
 
-.hero-body{
-    padding-top: 5%;
+.hero-body {
+  padding-top: 5%;
 }
 
-.heading{
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 600;
-    font-size: 50px;
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
 }
 
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    gap: 50px 0;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px 0;
 }
 
-.content{
-    font-size: 20px;
-    color: var(--very-dark-cyan);
+.content {
+  font-size: 20px;
+  color: var(--very-dark-cyan);
 }
 
-.hero-image img{
+.hero-image img {
   width: 800px;
 }
 
-.btn{
-    background-color: var(--pink-color);
-    color: var(--white-color);
-    padding: 15px 40px;
-    border-radius: 50px;
+.btn {
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  padding: 15px 40px;
+  border-radius: 50px;
 }
-
 
 /* ------ main content ------ */
-.main-section{
-    padding: 6% 8%;
-    display: flex;
-    flex-direction: column;
-    gap: 60px 0;
+.main-section {
+  padding: 6% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px 0;
 }
 
-.main-content{
-    display: flex;
-    gap: 10px 100px;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.2);
-    padding: 100px;
-    border-radius: 10px;
+.main-content {
+  display: flex;
+  gap: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  padding: 100px;
+  border-radius: 10px;
 }
 
-.main-description h4{
-    padding: 15px 0;
-    font-weight: bold;
-    font-size: 30px;
+.main-description h4 {
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.main-description p{
-    font-size: 18px;
-    color: var(--very-dark-cyan);
+.main-description p {
+  font-size: 18px;
+  color: var(--very-dark-cyan);
 }
 
-.main-img img{
-    width: 60%;
+.main-img img {
+  width: 60%;
+}
+
+/* ------- footer section ------- */
+.footer-description {
+  margin: 2% 30%;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.footer-description h1{
+    padding-bottom: 40px;
 }
