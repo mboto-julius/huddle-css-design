@@ -224,6 +224,67 @@ a {
 }
 
 @media screen and (max-width: 700px) and (min-width: 501px) {
+  /* hero section */
+  .hero-image img
+  {
+    padding: 50px 20px 0px 20px;
+    width: 500px; 
+  }
+  .hero-body
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-logo img
+   {
+    width: 120px;
+  }
+  .hero-button a 
+  {
+    padding: 14px 20px;
+  }
+  .hero-section
+  {
+    height: 1060px;
+  }
+  .hero-header
+  {
+    margin: 20px 0;
+  }
+  /* main section */
+  .main-section 
+  {
+    margin-top: 40px;
+    padding: 2% 8%;
+  }
+
+  .main-content 
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+    padding: 20px;
+  }
+  .main-img 
+  {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .order-main-img 
+  {
+    order: 2;
+  }
+  /* footer section */
+  .footer-description h1 
+  {
+    font-size: 20px;
+  }
+  .footer-description
+   {
+    margin:60px
+  }
 }
 
 @media screen and (max-width: 900px) and (min-width: 701px) {
